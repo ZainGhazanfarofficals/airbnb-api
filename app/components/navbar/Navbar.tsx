@@ -38,7 +38,8 @@ const Navbar: React.FC<NavbarProps> = ({
         </div>
       </Container>
     </div>
-    <Categories />
+    {currentUser!=null?<Categories />:null}
+    
   </div>
   );
 }

@@ -5,7 +5,7 @@ import LoginModal from '@/app/components/modals/LoginModal';
 import RegisterModal from '@/app/components/modals/RegisterModal';
 import SearchModal from '@/app/components/modals/SearchModal';
 import RentModal from '@/app/components/modals/RentModal';
-
+import Footer from '../app/components/footer';
 import ToasterProvider from '@/app/providers/ToasterProvider';
 
 import './globals.css'
@@ -42,6 +42,7 @@ export default async function RootLayout({
         <div className="pb-20 pt-28">
           {children}
         </div>
+        <Footer/>
       </body>
     </html>
   )
