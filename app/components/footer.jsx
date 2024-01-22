@@ -7,7 +7,7 @@ function Footer() {
       <div>
         <p className="flex-1 text-lg ">Support</p>
         <div className="grid grid-cols-3 space-y-2 text-xs capitalize child:cursor-pointer child-hover:underline md:block">
-          <p className="mt-2">AirCover</p>
+          <p className="mt-2">Cover</p>
           <p>Safety information</p>
           <p>Cancellation options</p>
           <p>Help Center</p>
@@ -18,14 +18,14 @@ function Footer() {
         <p className="mt-4 flex-1 text-lg md:mt-0">Hosting</p>
         <div className="grid grid-cols-3 space-y-2 text-xs capitalize child:cursor-pointer child-hover:underline md:block">
           <p className="mt-2"> Try hosting</p>
-          <p>AirCover for Hosts</p>
+          <p>Cover for Hosts</p>
           <p>hosting resources</p>
           <p>community forum</p>
           <p>How to host responsibly</p>
         </div>
       </div>
       <div>
-        <p className="mt-4 flex-1 text-lg md:mt-0">Airbnb</p>
+        <p className="mt-4 flex-1 text-lg md:mt-0">BookItUp</p>
         <div className="grid grid-cols-3 space-y-2 text-xs capitalize child:cursor-pointer child-hover:underline md:block">
           <p className="mt-2">new features</p>
           <p>Investors</p>
